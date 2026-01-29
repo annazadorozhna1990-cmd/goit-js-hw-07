@@ -1,4 +1,4 @@
-const form = document.querySelector(.login-form);
+const form = document.querySelector(`.login-form`);
 form.addEventListener("submit", (event) => {
   event.preventDefault();
   const emailValue = form.querySelector('input[name="email"]').value.trim();
