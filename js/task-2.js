@@ -32,7 +32,7 @@ const galleryMarkup = images
     (element) =>
       `
       <li class="gallery-item">
-        <img src="${element.url}" alt="${element.alt}" class="gallery-image>
+        <img src="${element.url}" alt="${element.alt}" class="gallery-image">
       </li>
     `,
   )
